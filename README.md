@@ -23,3 +23,6 @@ opdb.GetDataByPrefix(pre) 返回类型 map
 获取数据库中数据总条目
 opdb.GetNum() 返回类型 int64
 
+注意：
+我在windows下使用的时候遇到一个错误，fsync: invalid argument，初步怀疑是文件系统的原因；在linux下完全正常没有遇到问题。
+
